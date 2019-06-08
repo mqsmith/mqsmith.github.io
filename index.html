@@ -17,10 +17,31 @@
 
     <style>
         body {
-            background-image: url(assets/images/coding.jpg);
+            background-image: url(assets/images/coding.jpg);    
+            position: relative;
         }
-        
-        
+
+        #content {
+             max-height: calc(100vh - 100px);
+            min-height: 100vh;
+        }
+
+        footer {
+            position: absolute;
+            bottom: -32px;
+            color: #ffffff;
+            text-align: center;
+            border-top: 8px solid #e8ecef;
+            background-color: #343a40;
+            height: 70px;
+            width: 100%;
+           
+        }
+
+        #foot {
+            margin-top: 38px;
+            margin-bottom: 0px;  
+        }
     </style>
 </head>
 
@@ -28,72 +49,82 @@
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+    <div id="content">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Mike Smith</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="index.html">About <span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                </div>
+            </div>
+        </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Mike Smith</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-4">About Me</h1>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="assets/images/profile_picture.jpg" class="img-fluid" alt="Mike Smith">
+                    </div>
+                    <div class="col">
+                        <p class="lead">
+                            I am 33 years old and love everything technology. I have a wife, Leigha, and 2
+                            amazing children; Levi (2) and Lorelei (5 months). My faith and my family are very important
+                            to me. I signed up for this bootcamp to make a change for my family. I mostly love doing
+                            anything with my family. I love music, sports, and traveling. I also love a good laugh. I
+                            feel
+                            like if you can't
+                            laugh are yourself or your situation you are making life harder on yourself.
+                            I am hoping to learn a lot from this bootcamp and make a succesful career piviot to the
+                            development industry. I never thought that I would find myself in this industry, but I am
+                            thoroughly
+                            enjoying my time in class and learning a ton of new and cool things. Thanks for stopping by,
+                            hope to connect
+                            with you soon.
+                        </p>
+                    </div>
+
+                </div>
+
+                <hr class="my-4">
+                <p>
+                    <h3>
+                        Core Competencies
+                    </h3>
+                    <ul>
+                        <li>
+                            HTML, CSS, Bootstrap, Java Script, React.JS
+                        </li>
+                        <li>
+                            Python, Java, C, C#, .NET
+                        </li>
+                        <li>
+                            Microsoft Suite, Google Suite, Mac and Windows Proficient
+                        </li>
+
+                    </ul>
+                </p>
+
             </div>
         </div>
-    </nav>
 
-
-    <div class="container">
-        <div class="jumbotron">
-            <h1 class="display-4">About Me</h1>
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="assets/images/profile_picture.jpg" class="img-fluid" alt="Mike Smith">
-                </div>
-                <div class="col">
-                    <p class="lead">
-                        I am 33 years old and love everything technology. I have a wife, Leigha, and 2
-                        amazing children; Levi (2) and Lorelei (5 months). My faith and my family are very important
-                        to me. I signed up for this bootcamp to make a change for my family. I mostly love doing
-                        anything with my family. I love music, sports, and traveling. I also love a good laugh. I feel
-                        like if you can't
-                        laugh are yourself or your situation you are making life harder on yourself.
-                        I am hoping to learn a lot from this bootcamp and make a succesful career piviot to the
-                        development industry. I never thought that I would find myself in this industry, but I am
-                        thoroughly
-                        enjoying my time in class and learning a ton of new and cool things. Thanks for stopping by,
-                        hope to connect
-                        with you soon.
-                    </p>
-                </div>
-
-            </div>
-
-            <hr class="my-4">
-            <p>
-                <h3>
-                    Core Competencies
-                </h3>
-                <ul>
-                    <li>
-                        HTML, CSS, Bootstrap, Java Script, React.JS
-                    </li>
-                    <li>
-                        Python, Java, C, C#, .NET
-                    </li>
-                    <li>
-                        Microsoft Suite, Google Suite, Mac and Windows Proficient
-                    </li>
-
-                </ul>
+        <footer>
+            <p id="foot">
+                Copyright &copy;
             </p>
 
-        </div>
+        </footer> 
     </div>
 
-   
+
 
     <script src="" async defer></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
