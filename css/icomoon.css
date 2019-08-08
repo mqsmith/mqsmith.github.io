@@ -1711,6 +1711,9 @@
 .icon-stackoverflow:before {
   content: "\eb00";
 }
+.icon-terminal:before {
+  content: "\eb00";
+}
 .icon-pinterest:before {
   content: "\eb01";
 }
