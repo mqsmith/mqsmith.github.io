@@ -22,6 +22,7 @@ body {
   color: rgba(0, 0, 0, 0.7);
 }
 
+
 @media screen and (max-width: 992px) {
   body {
     font-size: 16px;
@@ -1190,6 +1191,9 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   }
   .colorlib-footer{
     position: relative;
+  }
+  #resumeSlide{
+    width: 100%;
   }
   .resumeImages{
     height: 100%;
