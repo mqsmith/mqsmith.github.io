@@ -22,6 +22,10 @@ body {
   color: rgba(0, 0, 0, 0.7);
 }
 
+.contactLinks{
+  color: #333333 !important;
+}
+
 
 @media screen and (max-width: 992px) {
   body {
