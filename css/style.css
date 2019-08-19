@@ -1188,6 +1188,9 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
     font-size: 28px;
   }
+  .colorlib-footer{
+    position: relative;
+  }
 }
 
 .blog-entry {
