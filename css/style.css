@@ -1191,6 +1191,10 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   .colorlib-footer{
     position: relative;
   }
+  .resumeImages{
+    height: 100%;
+    width: 100%;
+  }
 }
 
 .blog-entry {
@@ -1204,6 +1208,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   .blog-entry {
     margin-bottom: 3em;
   }
+  
 }
 
 .blog-entry .blog-img {
