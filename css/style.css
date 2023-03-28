@@ -938,7 +938,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
   vertical-align: middle;
 }
 
-.services img .angular {
+.services .icon img .angular {
  height: 50px !important;
  width: 50px !important;
 }
