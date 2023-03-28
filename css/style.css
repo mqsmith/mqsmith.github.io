@@ -1212,8 +1212,8 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     width: 100%;
   }
   .resumeImages{
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
   }
 }
 
