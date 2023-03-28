@@ -345,7 +345,7 @@ figure figcaption {
 #colorlib-hero .flexslider .slides li {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom center;
+  background-position: left center;
   min-height: 400px;
   position: relative;
 }
@@ -1212,8 +1212,8 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
     width: 100%;
   }
   .resumeImages{
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
   }
 }
 
